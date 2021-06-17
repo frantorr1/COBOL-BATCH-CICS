@@ -1,4 +1,7 @@
-Programa PGMDBL01: 
+PROGRAMA: PGMDBL01 ; ALU0001
+JCL : JCLDB201
+ARCHIVO SALIDA: ALU0001.CURSOS.PRINT
+Se consideró como datos relevantes del cliente a los campos : NRO CLIENTE; TIPO DOC; NRO DOC; NOMBRE ; APELLIDO Y FECHA DE ALTA.
   
 Especificaciones:
 Programa Listador de todos los clientes encontrados en la base de datos DB2 de CLIENTES y sus respectivas cuentas 
