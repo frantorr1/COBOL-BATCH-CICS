@@ -1,6 +1,7 @@
 PROGRAMA: PGMDBL01 ; ALU0001        
 JCL : JCLDB201        
-ARCHIVO SALIDA: ALU0001.CURSOS.PRINT          
+ARCHIVO SALIDA: ALU0001.CURSOS.PRINT   
+*Adjunto se encuentra el archivo PNG Listado, el cual es una muestra del listado imprimido por el programa*     
 Se consideró como datos relevantes del cliente a los campos : NRO CLIENTE; TIPO DOC; NRO DOC; NOMBRE ; APELLIDO Y FECHA DE ALTA.        
   
 Especificaciones:
