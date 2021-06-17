@@ -3,12 +3,12 @@ Programa PGMDBL01:
 Especificaciones:
 Programa Listador de todos los clientes encontrados en la base de datos DB2 de CLIENTES y sus respectivas cuentas 
 en base de datos DB2 de CUENTAS.
-Al final del programa muestra los totales de control de:  
-  #Cantidad Clientes encontrados.
-  #Cantidad Cuentas encontradas.
-  #Cantidad Cuentas Grabadas.
-  #Cantidad Clientes Grabados.
-  #Cantidad Clientes Sin Cuentas.
+Al final del programa muestra los totales de control de:          
+  #Cantidad Clientes encontrados.     
+  #Cantidad Cuentas encontradas.        
+  #Cantidad Cuentas Grabadas.       
+  #Cantidad Clientes Grabados.      
+  #Cantidad Clientes Sin Cuentas.     
       
 Tablas: DB2 CLIENTES: ITPFBIO.TBCLIENT      
         DB2 CUENTAS: ITPFBIO.TBCUENTAS
