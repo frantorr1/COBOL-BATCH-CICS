@@ -1,0 +1,35 @@
+PROGRAMA: PGMMEN01        
+TRANSACCIÒN T201 
+MAPA MAP0201
+
+Construir un programa CICS que muestre el menú de opciones previsto según mapa de
+INPUT (MAP02XX): MENÚ CLIENTES
+Mostrará las opciones para realizar con cada Cliente y seguirá las instrucciones que se
+detallan a continuación.            
+NOTA IMPORTANTE:
+      
+Los campos pintados de “turquesa”; serán NO MODIFICABLES        
+Considerar la posibilidad que el usuario presione ENTER; sin haber cargado ningún     
+documento; así como también que el tipo y/o el número de documento sean inválidos.      
+Se mostrarán los errores al pie de página.      
+        
+ACLARACIONES:       
+1) Si el usuario selecciona ALTA; o sea que presiona PF1; el programa volverá a
+mostrar el MAP0201 y devolviendo el mensaje "en construccion".      
+      
+2) Si el usuario selecciona BAJA; o sea que presiona PF2; el programa volverá a     
+mostrar el MAP0201 y devolviendo el mensaje "en construccion".        
+
+3) Si el usuario selecciona MODIFICACIÓN; o sea que presiona PF3; el programa   
+volverá a mostrar el MAP0201 y devolviendo el mensaje "en construccion".      
+      
+4) Si el usuario selecciona CONSULTA; o sea que presiona PF4; el programa pasará      
+el control vía LINK al programa CICS de Consulta PGMCON01.    
+      
+5) Si el usuario selecciona PF12; volver al CICS.   
+    
+6) Toda otra opción será considerada inválida; se mostrará como mensaje. OPCIÓN     
+ERRÓNEA y volver a mostrar el mapa MAP0201    
+
+*********************************************************************************************************
+
